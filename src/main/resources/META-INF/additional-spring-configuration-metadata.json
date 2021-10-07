@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "com.hit.nationalHoliday",
+      "type": "java.lang.String",
+      "description": "Description for com.hit.nationalHoliday."
+  }
+] }
