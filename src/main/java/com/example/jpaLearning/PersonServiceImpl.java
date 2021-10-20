@@ -38,5 +38,7 @@ public class PersonServiceImpl implements PersonService{
         return personRepository.findPersonNameById(id);
     }
 
-
+    public Optional<UserDTO> getUserInformation(Long id){
+        return personRepository.getUserInformation(id);
+    }
 }
