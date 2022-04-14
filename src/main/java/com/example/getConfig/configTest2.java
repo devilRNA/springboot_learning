@@ -24,4 +24,18 @@ public class configTest2 {
         return configEntity;
     }
 
+    @Autowired
+    private helloService helloService;
+
+    @GetMapping("gethello")
+    public String wwww(){
+        return helloService.getHello();
+    }
+
+    @GetMapping("getTime")
+    public String sss(){
+        return helloService.getTime();
+    }
+
+
 }
